@@ -1,4 +1,4 @@
-import Input from "../../components/input"
+import Input from "../../components/Input"
 import React from "react"
 
 const Color = ({handleChange, setSelectedCategory}) => {

@@ -1,4 +1,4 @@
-import Input from "../../components/input"
+import Input from "../../components/Input"
 import "./Category.css"
 import React from "react"
 
