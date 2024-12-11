@@ -32,6 +32,17 @@ input{
     height: 1.5rem; */
 }
 
+@media (max-width: 500px){
+    .nav-icons{
+        margin-left: 1.2rem;
+    }
+}
+@media (max-width: 390px){
+    .nav-icons{
+        margin-left: 1rem;
+    }
+}
+
 /* .profile-container{
     display: flex;
     justify-content: center;

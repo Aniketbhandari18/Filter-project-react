@@ -49,6 +49,17 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 610px){
+    .card-container{
+        margin-left: 200px;
+    }
+}
+@media (max-width: 400px){
+    .card-container{
+        margin-left: 190px;
+    }
+}
 /* .bag{
     color: #777474;
 } */
