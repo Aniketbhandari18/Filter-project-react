@@ -57,7 +57,10 @@
 }
 @media (max-width: 400px){
     .card-container{
-        margin-left: 190px;
+        margin-left: 170px;
+    }
+    .card{
+        width: 165px;
     }
 }
 /* .bag{
