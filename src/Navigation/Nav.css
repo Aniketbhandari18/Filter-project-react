@@ -10,7 +10,7 @@ nav{
     padding: 20px;
     border-bottom: 2px solid #f3f3f3;
     /* margin-left: 2rem; */
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
 input{
@@ -33,6 +33,11 @@ input{
 }
 
 @media (max-width: 500px){
+    nav{
+        justify-content: space-between;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+    }
     .nav-icons{
         margin-left: 1.2rem;
     }
