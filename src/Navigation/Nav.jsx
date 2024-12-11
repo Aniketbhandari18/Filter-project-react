@@ -2,6 +2,7 @@ import { FiHeart } from "react-icons/fi"
 import { AiOutlineUserAdd } from "react-icons/ai"
 import { AiOutlineShoppingCart } from "react-icons/ai"
 import './Nav.css'
+import React from "react"
 
 const Nav = ({handleInput}) => {
   return (

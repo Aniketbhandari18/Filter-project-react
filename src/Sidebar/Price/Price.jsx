@@ -1,17 +1,18 @@
 import Input from "../../components/input"
+import React from "react"
 
-const Price = ({handleChange}) => {
+const Price = ({handleChange, setSelectedCategory}) => {
   return (
     <>
       <div className="category-container">
         <p className="category-title">Price</p>
 
         <div className="category-list">
-          <Input handleChange={handleChange} value={""} name={"Price"} title={"All"} />
-          <Input handleChange={handleChange} value={"$0-50"} name={"Price"} title={"$0-50"} />
-          <Input handleChange={handleChange} value={"$50-100"} name={"Price"} title={"$50-100"} />
-          <Input handleChange={handleChange} value={"$100-150"} name={"Price"} title={"$100-150"} />
-          <Input handleChange={handleChange} value={"over $150"} name={"Price"} title={"Over $150"} />
+          <Input setSelectedCategory={setSelectedCategory} value={""} name={"price"} title={"All"} />
+          <Input setSelectedCategory={setSelectedCategory} value={"$0-50"} name={"price"} title={"$0-50"} />
+          <Input setSelectedCategory={setSelectedCategory} value={"$50-100"} name={"price"} title={"$50-100"} />
+          <Input setSelectedCategory={setSelectedCategory} value={"$100-150"} name={"price"} title={"$100-150"} />
+          <Input setSelectedCategory={setSelectedCategory} value={"over $150"} name={"price"} title={"Over $150"} />
         </div>
       </div>
     </>

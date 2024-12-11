@@ -1,7 +1,14 @@
 import "../Sidebar/Category/Category.css"
+import React from "react"
 
-const Input = ({handleChange, value, name, title}) => {
-  const checked = false;
+const Input = ({setSelectedCategory, value, name, title}) => {
+
+  const handleChange = (event) =>{
+    setSelectedCategory((prevState) =>(
+      {...prevState, [name]: event.target.value}
+    ))
+  }
+
   return (
     <div className="option">
         <label>

@@ -1,5 +1,6 @@
 import Input from "../../components/input"
 import "./Category.css"
+import React from "react"
 
 const Category = ({handleChange, setSelectedCategory}) => {
   return (
@@ -8,11 +9,11 @@ const Category = ({handleChange, setSelectedCategory}) => {
         <p className="category-title">Category</p>
 
         <div className="category-list">
-          <Input handleChange={handleChange} value="" name="category" title="All" />
-          <Input handleChange={handleChange} value="sneakers" name="category" title="Sneakers" />
-          <Input handleChange={handleChange} value="flats" name="category" title="Flats" />
-          <Input handleChange={handleChange} value="sandals" name="category" title="Sandals" />
-          <Input handleChange={handleChange} value="heels" name="category" title="Heels" />
+          <Input setSelectedCategory={setSelectedCategory} value="" name="category" title="All" />
+          <Input setSelectedCategory={setSelectedCategory} value="sneakers" name="category" title="Sneakers" />
+          <Input setSelectedCategory={setSelectedCategory} value="flats" name="category" title="Flats" />
+          <Input setSelectedCategory={setSelectedCategory} value="sandals" name="category" title="Sandals" />
+          <Input setSelectedCategory={setSelectedCategory} value="heels" name="category" title="Heels" />
         </div>
       </div>
     </>

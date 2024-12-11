@@ -1,4 +1,5 @@
 import { AiFillStar } from "react-icons/ai";
+import React from 'react';
 
 const data = [
   {
